@@ -1,7 +1,9 @@
 const Greet = () => {
   return (
     <div>
-      <p>Hello, world!</p>
+      <h1 className="text-3xl font-bold text-purple-700 underline">
+        Hello world!
+      </h1>
     </div>
   );
 };
