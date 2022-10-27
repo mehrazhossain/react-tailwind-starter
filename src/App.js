@@ -1,11 +1,11 @@
-import Greet from './components/Greet';
 import GreetView from './features/greet/GreetView';
+import TodosView from './features/todos/TodosView';
 
 function App() {
   return (
     <div>
-      {/* <Greet /> */}
-      <GreetView />
+      {/* <GreetView /> */}
+      <TodosView />
     </div>
   );
 }
