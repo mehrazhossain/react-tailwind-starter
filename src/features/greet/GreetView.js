@@ -1,4 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { hideGreetMessage, showGreetMessage } from './greetSlice';
 
 const GreetView = () => {
@@ -36,6 +37,12 @@ const GreetView = () => {
       >
         Hide Message
       </button>
+      <Link
+        to={'/todos'}
+        className="bg-green-500 ml-3 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full"
+      >
+        Todos Page
+      </Link>
     </div>
   );
 };
